@@ -1,0 +1,421 @@
+
+body{
+    background-color: black;
+
+}
+
+.body1{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    min-height: 100vh;
+    background-image: linear-gradient(125deg,#C69749 #000000, );
+}
+
+.wrap{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #343434;
+}
+
+.error{
+    font-size: 160px;
+}
+.wrap h2{
+    font-size: 160px;
+    margin: 0;
+    font-weight: 900;
+    letter-spacing: 1px;
+    /* background: url(/32.jpg) center no-repeat; */
+    /* -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; */
+
+}
+
+.wrap a{
+    text-decoration: none;
+    background: #000000;
+    color: #C69749;
+    padding: 12px 24px;
+    display: inline-block;
+    border-radius: 25px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+
+.wrap a:hover{
+    background-color: #000000;
+
+}
+
+/* 
+.footer2{
+    background-color: #282A3A;
+    color: #C69749;
+    height: 100px;
+}
+
+.footer2 a {
+    text-decoration: none;
+    color:#C69749;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 25px; */
+/* } */
+
+
+/* .body1{
+    background-color:#282A3A;
+} */
+
+/* .footer1{
+    height: 100px;
+    color: #C69749;
+    background-color:#000000
+    
+
+}
+
+.footer1 a {
+    text-decoration: none;
+    color:#C69749;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 25px; */
+/*   
+} */
+
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(/32.jpg);
+    background-size: cover;
+    color: black;
+}
+
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+
+.contact .content h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.contact .content p{
+    font-weight: 300;
+    color: #fff;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container .containerinfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .containerinfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+
+}
+
+.container .containerinfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.container .containerinfo .box .text{
+    display:flex ;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.container .containerinfo .box .text h3{
+    font-weight: 500;
+    color: #00bcd4;
+
+}
+
+.contactform{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+
+}
+
+.contactform h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+
+.contactform .inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contactform .inputbox input, .contactform .inputbox textarea{
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+
+.contactform .inputbox span{
+    position: absolute;
+    left: 0;
+    padding: 5px;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666
+}
+
+.contactform .inputbox input:focus ~ span, .contactform .inputbox input:valid ~ span, .contactform .inputbox textarea:focus ~ span, .contactform .inputbox textarea:valid ~ span{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translate(-20px);
+}
+
+.contactform .inputbox input[type="submit"]{
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.wrapper{
+margin-left: auto;
+margin-right: auto;
+width: 1365px;
+
+
+}
+
+.banner{
+    width: 1365px;
+    height: 250px;
+    text-align: center;
+    
+}
+
+.call{
+    color: #C69749;
+}
+
+.banner1{
+        color: #735F32;
+        text-align: center;
+        height: 325px;
+        text-decoration: underline;
+        
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #C69749;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: large;
+    
+}
+
+.cart{
+    height: 100px;
+}
+
+nav{
+    text-align: center;
+    background-color: #282a3a73;
+    height: 25px;
+    color: #C69749;
+}
+
+a{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #735F32;
+
+
+}
+
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #C69749;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2{
+    color: #735F32;
+}
+
+h3{
+    font-family: 'Work Sans', sans-serif;
+    color: #C69749;
+}
+
+p{
+    font-family: 'Work Sans', sans-serif;
+    color: #C69749;
+}
+
+
+
+.check-list{
+    display: flex;
+    gap: 50px;
+    background-color: #282A3A;
+
+}
+
+.img-size{
+    width: 500px;
+    height: 500px;
+}
+
+.best{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.check-list1{
+    display: flex;
+    gap: 50px;
+
+
+}
+
+.check-list2{
+    display: flex;
+    gap: 50px;
+    background-color: #282A3A;
+
+
+}
+
+.check-list3{
+    display: flex;
+    gap: 50px;
+    background-color: #282A3A;
+
+
+}
+
+.feature{
+    background-color:#C69749;
+    height: 200px;
+    padding-top: 50px;
+    text-align: center;
+    color: black;
+
+}
+
+.fea{
+    color: black;
+    text-align: center;
+    
+}
+
+.let{
+    background-color: #282A3A;
+    height: 100px;
+    padding-top: 60px;
+    
+}
+
+.click{
+    background-color: #C69749;
+    color: black;
+    text-align: center;
+    height: 100px;
+    text-decoration: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+.me{
+    text-align: center;
+    height: 100px;
+    text-decoration: none;
+  
+
+}
+
+.footer{
+    background-color: #282A3A;
+    color: #C69749;
+    height: 100px;
+}
+
+.quick{
+    text-align: left;
+}
+
+.footer a {
+    text-decoration: none;
+    color:#C69749;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 25px;
+}
+
+.twitter{
+    width: 10px;
+    height: 10px;
+}
+
+.vid{
+    background-color: #282A3A;
+}
+
+.about{
+    text-align: center;
+}
+
+.about1{
+    text-align: center;
+}
