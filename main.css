@@ -29,7 +29,7 @@ body{
     margin: 0;
     font-weight: 900;
     letter-spacing: 1px;
-    /* background: url(/32.jpg) center no-repeat; */
+    background: url() center no-repeat;
     /* -webkit-text-fill-color: transparent;
     -webkit-background-clip: text; */
 
@@ -99,7 +99,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url(/32.jpg);
+    /* background: url(/32.jpg); */
     background-size: cover;
     color: black;
 }
